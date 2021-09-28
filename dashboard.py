@@ -11,5 +11,5 @@ from oauth2client.service_account import ServiceAccountCredentials
 xVals = np.random.randn(20).tolist()
 yVals = np.random.randn(20).tolist()
 
-fig = px.scatter(x=xVals, y=yVals, width=1)
+fig = px.scatter(x=xVals, y=yVals)
 fig.show()
