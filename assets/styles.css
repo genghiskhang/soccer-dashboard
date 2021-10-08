@@ -1,0 +1,29 @@
+:root {
+    --navy:#0C0552;
+    --gray:#717079;
+}
+
+h2 {
+    color:var(--navy);
+}
+
+.body {
+    font-family:'Oswald', sans-serif;
+}
+
+.stats {
+    display:flex;
+    gap:50px;
+}
+
+.stats-list {
+    list-style:none;
+    padding:0px;
+    flex:1;
+    color:gray;
+}
+
+.radial-position-container {
+    display:flex;
+    gap:50px;
+}
