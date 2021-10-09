@@ -8,6 +8,8 @@ h2 {
 }
 
 .body {
+    margin-left:35%;
+    margin-right:35%;
     font-family:'Oswald', sans-serif;
 }
 
@@ -17,13 +19,33 @@ h2 {
 }
 
 .stats-list {
+    display:inline-block;
     list-style:none;
     padding:0px;
     flex:1;
-    color:gray;
+    color:var(--gray);
 }
 
-.radial-position-container {
+.stats-numbers {
+    list-style:none;
+    padding-left:20px;
+    color:var(--gray);
+    display:inline-block;
+}
+
+.offense {
+    flex:0 0 auto;
+}
+
+.defense {
+    flex:0 0 auto;
+}
+
+.work {
+    flex:0 0 auto;
+}
+
+.chart-container {
     display:flex;
-    gap:50px;
+    gap:100px;
 }
