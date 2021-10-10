@@ -27,10 +27,10 @@ h2 {
 }
 
 .stats-numbers {
+    display:inline-block;
     list-style:none;
     padding-left:20px;
     color:var(--gray);
-    display:inline-block;
 }
 
 .offense {
