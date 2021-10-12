@@ -48,5 +48,8 @@ h2 {
 .chart-container {
     display:flex;
     gap:100px;
-    flex-wrap:wrap;
+}
+
+.radar-chart {
+    width:1000px;
 }
